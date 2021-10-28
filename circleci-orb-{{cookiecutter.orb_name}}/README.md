@@ -3,7 +3,7 @@ circleci-orb-{{ cookiecutter.orb_name }}
 [![GitHub License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/trustedshops-public/{{ cookiecutter.orb_name }}/blob/main/LICENSE)
 [![pre-commit](https://img.shields.io/badge/%E2%9A%93%20%20pre--commit-enabled-success)](https://pre-commit.com/)
 [![CircleCI Build Status](https://circleci.com/gh/trustedshops-public/circleci-orb-{{ cookiecutter.orb_name }}.svg?style=shield "CircleCI Build Status")](https://circleci.com/gh/trustedshops-public/circleci-orb-{{ cookiecutter.orb_name }})
-[![CircleCI Orb Version](https://badges.circleci.com/orbs/trustedshops-public/circleci-orb-{{ cookiecutter.orb_name }}.svg)](https://circleci.com/orbs/registry/orb/trustedshops-public/circleci-orb-{{ cookiecutter.orb_name }})
+[![CircleCI Orb Version](https://badges.circleci.com/orbs/trustedshops-public/{{ cookiecutter.orb_name }}.svg)](https://circleci.com/orbs/registry/orb/trustedshops-public/{{ cookiecutter.orb_name }})
 
 CircleCI orb {{ cookiecutter.orb_name }}
 
