@@ -1,0 +1,14 @@
+description: Help users getting started with the orb
+usage:
+  version: 2.1
+  orbs:
+    {{ cookiecutter.orb_name }}: trustedshops-public/{{ cookiecutter.orb_name }}@<version>
+  workflows:
+    version: 2
+    continious:
+      jobs:
+        - {{ cookiecutter.orb_name }}/job:
+            name: {{ cookiecutter.orb_name }}
+            filters:
+              branches:
+                only: [ main ]
